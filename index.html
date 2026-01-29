@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweat Hard Fitness Gym</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <a href="menu.html">menu</a>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="testlogo.png" alt="">
+            <img src="testlogo2.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home"><b>Home</b></a>
+            <a href="#about"><b>About</b></a>
+            <a href="#products"><b>Products</b></a>
+            <a href="#review"><b>Reviews</b></a>
+            <a href="#contact"><b>Contact</b></a>
+            <a href="#blog"><b>Blogs</b></a>
+            <span></span>
+        </nav>
+
+        <button class="menu-button"
+        onclick="window.location.href = 'menu.html';">Menu</button>
+        <button class="login-button" id="form-open">Login</button>
+    </header>
+          <!-- -->
+          <section class="home" id="home">
+            <div class="content">
+            </div>
+                <div class="sub-content">
+                <img src="Gigachad.png" alt="giga">
+                <!--<a href="#" class="btn">get yours now</a>-->
+            </div>
+            <div class="form_container">
+                <i class="uil uil-times form_close"></i>
+               <!--FORM--> 
+               <div class="form login_form">
+                <form action="#">
+                    <h2>Login</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter your email" required>
+                        <i class="uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter your password" required>
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="option_field">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remeber me</label>
+                        </span>
+                        <a href="#" class="forgot_pw">Forgot Password?</a>
+                    </div>
+                    <button class="button">Login Now</button>
+                    <div class="login_signup">
+                        Don't have an account? <a href="#" id="signup">Signup</a></div>
+                </form>
+            </div>
+
+            <!--signup form-->
+
+               <div class="form signup_form">
+                <form action="#">
+                    <h2>Signup</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter your email" required>
+                        <i class="uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Create password" required>
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Confirm password" required>
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+                    <button class="button">Signup Now</button>
+                    <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+                </form>
+            </div>
+            </div>
+          </section>
+
+    <!-- about section start-->
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> us </h1>
+        <div class="row">
+            <div class="image">
+                <img src="about-us.jpg" alt="">
+            </div>
+            <div class="content">
+                <h4>About Us</h4>
+                <h3>WE PROVIDE TRAINING</h3>
+                <h3>AND BEST <span>FITNESS</span></h3>
+                <h3><span>MOTIVATIONS</span></h3>
+                <p>We stand out from other fitness gyms by providing a holistic approach to wellness. 
+                    Our certified trainers offer personalized fitness plans and nutritional guidance, 
+                    fostering a supportive community where individuals of all levels feel encouraged and motivated.
+                     We prioritize not only physical transformation but also creating an inspiring space for our members' fitness journeys.</p>
+                <a href="https://www.facebook.com/profile.php?id=100057326234739" target="_blank" class="btn">learn more</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about section end-->
+
+    <!-- menu section starts
+
+    <section class="menu" id="menu">
+        <h1 class="heading"> our <span>menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="menu-1.jpg" alt="">
+                <h3>coven ahri</h3>
+                <div class="price">php. 530.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="menu-2.jpg" alt="">
+                <h3>coven akali</h3>
+                <div class="price">php. 600.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="menu-3.jpg" alt="">
+                <h3>project zed</h3>
+                <div class="price">php. 500.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="menu-4.jpg" alt="">
+                <h3>project yasuo</h3>
+                <div class="price">php. 430.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="menu-6.jpg" alt="">
+                <h3>bloodmoon yasuo</h3>
+                <div class="price">php. 700.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="blog-2.jpg" alt="">
+                <h3>bloodmoon yasuo</h3>
+                <div class="price">php. 700.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="blog-3.jpg" alt="">
+                <h3>bloodmoon yasuo</h3>
+                <div class="price">php. 700.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="home-img.jpg" alt="">
+                <h3>bloodmoon yasuo</h3>
+                <div class="price">php. 700.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="akali-bm.jpg" alt="">
+                <h3>bloodmoon akali</h3>
+                <div class="price">php. 700.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="cov-morgana.jpg" alt="">
+                <h3>coven morgana</h3>
+                <div class="price">php. 700.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="elise-bm.jpg" alt="">
+                <h3>bloodmoon elise</h3>
+                <div class="price">php. 700.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="evelyn-bm.jpg" alt="">
+                <h3>bloodmoon evelyn</h3>
+                <div class="price">php. 700.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="jhin-bm.jpg" alt="">
+                <h3>bloodmoon jhin</h3>
+                <div class="price">php. 700.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="masteryi-bm.jpg" alt="">
+                <h3>bloodmoon master yi</h3>
+                <div class="price">php. 700.00 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+     menu section ends -->
+
+    <section class="products" id="products">
+        <h1 class="heading"> our <span>products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="menu.html" class="fa fa-store"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="product-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Superior Supplements</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="menu.html" class="fa fa-store"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="product-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>JNX Sports Supplement</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="menu.html" class="fa fa-store"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>MuscleMeds Supplements</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="menu.html" class="fa fa-store"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Merica Labz Supplements</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- review section start-->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">customer's <span>review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <p>Very affordable yung product at ang daming benefits!</p>
+                 <img src="pic-1.jpg" class="user" alt="">
+                 <h3>lorence david</h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>Very Good product!</p>
+                 <img src="pic-5.webp" class="user" alt="">
+                 <h3>Sam Sulek</h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>The price is very good for the product.</p>
+                 <img src="pic-4.webp" class="user" alt="">
+                 <h3>Chris Heria</h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>I bought 2 of each because its very affordable.</p>
+                 <img src="pic-6.jpg" class="user" alt="">
+                 <h3>Tristyn Lee</h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>Feel ko talaga yung lakas after ko mag take nung product</p>
+                 <img src="pic-2.jpg" class="user" alt="">
+                 <h3>jerson cabanatan</h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>Sulit at maganda naman and afford naman kahit papano,</p>
+                 <img src="pic-3.jpg" class="user" alt="">
+                 <h3>Anonymous User</h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>The best among the best!</p>
+                 <img src="pic-6.jpg" class="user" alt="">
+                 <h3>Tyler Path</h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>I recommend this products to y'all.</p>
+                 <img src="pic-8.jpg" class="user" alt="">
+                 <h3>Colin Weng</h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>Nothing better than this</p>
+                 <img src="pic-9.jpg" class="user" alt="">
+                 <h3>Hybrid Calisthenics</h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+    </section>
+
+    <!-- review section ends-->
+
+    <!-- contact section starts-->
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contacts </span>us</h1>
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15404.73279063752!2d120.6009055!3d15.1482805!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f323a7a9f73b%3A0xc185e91025d3f9ad!2sSweat%20Hard%20Fitness%20Gym!5e0!3m2!1sen!2sph!4v1702040924751!5m2!1sen!2sph" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputbox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputbox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputbox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="Number">
+                </div>
+                <input type="submit" value="contact now" class="btn">
+            </form>
+            <div class="contact-info">
+                <h3>CONTACT INFORMATION</h3>
+                <p><i class="fas fa-phone"></i>+639150532607</p>
+                <p><i class="fas fa-envelope"></i> sweathard@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> sweathard@gmail.com</p>
+                </div>
+        </div>
+    </section>
+
+    <!-- contact section ends-->
+
+    <!-- blog section starts-->
+
+    <section class="blogs" id="blog">
+        <h1 class="heading"> our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">What Are Pre-Workout Supplements Used For?</a>
+                    <span>by Reynaldo Patino / Created on April 28, 2023</span>
+                    <p>Pre-workout supplements are designed to give you a boost before exercising and can help improve exercise performance. 
+                        and usually contain creatine, nitric oxide, branched-chain amino acids (BCAAs).</p>
+                    <a href="https://awtsuprints.com/blogs/fitness/what-are-pre-workout-supplements-used-for" target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Top Health and Fitness YouTube Vloggers to Follow in 2023</a>
+                    <span>by Izea / May 9, 2023</span>
+                    <p>Are you looking to stay up-to-date on all the latest health and fitness trends? Consider following some of the top YouTube channels in the industry.</p>
+                    <a href="https://izea.com/resources/top-health-influencers/" target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">The Ultimate 5 Day Workout Split For Building Muscle & Strength</a>
+                    <span>by Garett Reid/ August 05, 2023</span>
+                    <p>This is the ultimate guide to the 5 day workout split. In this article, we have two complete 5 day workout split programs that you can follow, both of which are very different yet equally effective. </p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section ends-->
+
+    <!-- footer section starts-->
+
+    <section class="footer">
+        <div class="shar">
+            <a href="https://www.facebook.com/profile.php?id=100057326234739" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-youtube"></a>
+        </div>
+        <div class="link">
+            <a href="index.html?#home">home</a>
+            <a href="index.html?#about">about</a>
+            <a href="index.html?#products">products</a>
+            <a href="index.html?#review">review</a>
+            <a href="index.html?#contact">contacts</a>
+            <a href="index.html?#blog">blogs</a>
+        </div>
+        <div class="credit">created by <span>BSCS C-208 Students</span> | all right reserved</div>
+    </section>
+
+    <!-- footer section ends here-->
+
+<script src="script.js"></script>
+
+</body>
+</html>
